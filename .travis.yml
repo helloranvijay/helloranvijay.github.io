@@ -16,7 +16,7 @@ before_install:
   - ruby -v
 
 install:
- - require 'bundler/setup'
+  - require 'bundler/setup'
   - gem install bundler
   - bundle install
   - npm install -g firebase-tools
