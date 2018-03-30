@@ -14,10 +14,10 @@ sudo: required
 before_install:
   - nvm install node
   - ruby -v
-
-install:
   - gem install bundler
   - bundle install
+
+install:
   - npm install -g firebase-tools
 
 before_script:
